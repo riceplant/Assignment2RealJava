@@ -2,7 +2,9 @@
  * File: FindRange.java
  * --------------------
  * This program shows the largest and smallest number
- * from the user input.
+ * from the user input. The user can choose any number from below 0 and above 0.
+ * If the user types 0, the program stops and show the smallest and the
+ * largest number.
  */
 
 package com.company;
