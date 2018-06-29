@@ -8,10 +8,10 @@ public class Hailstone {
         int counter = 0;
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number: ");
+        int n = sc.nextInt();
 
         /* get the loop to repeat input */
         while (true) {
-            int n = sc.nextInt();
             while (n != 1) {
 
                 /* If the number is odd -> 3n+1 -> store it in temporary variable nTempOdd */
@@ -28,7 +28,11 @@ public class Hailstone {
                     counter++;
                     break;
                 }
-            } System.out.println("The process took " + counter + " to reach 1.");
+            } if (n == 1) {
+                System.out.println("The process took " + counter + " to reach 1.");
+                break;
+            }
+
         }
     }
 }
