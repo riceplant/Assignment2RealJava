@@ -28,8 +28,7 @@ public class Hailstone {
                     counter++;
                     break;
                 }
-                System.out.println("The process took " + counter + " to reach 1.");
-            }
+            } System.out.println("The process took " + counter + " to reach 1.");
         }
     }
 }
